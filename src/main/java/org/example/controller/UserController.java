@@ -18,7 +18,6 @@ import java.util.List;
 @RequestMapping("user")
 public class UserController {
     private User user;
-    private String userName;
 
     @Autowired
     private UserService userService;
